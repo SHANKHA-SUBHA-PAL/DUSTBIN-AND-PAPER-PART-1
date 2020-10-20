@@ -25,11 +25,11 @@ function setup() {
 
 	groundSprite = new ground(width/2,480,1000,20);
 
-	bSide1 = new Dside(870,height-40,200,20);
+	bSide1 = new Dside(860,height-40,150,20);
 
-	bSide2 = new Dside(760,height-80,20,100);
+	bSide2 = new Dside(780,height-80,20,200);
 
-	bSide3 = new Dside(960,height-80,20,100);
+	bSide3 = new Dside(940,height-80,20,200);
 
 	
 
@@ -56,7 +56,7 @@ function keyPressed(){
 
 if(keyCode === UP_ARROW){
 
-Matter.Body.applyForce(paperBall.body,paperBall.position,{ x: 150, y: -100});
+Matter.Body.applyForce(paperBall.body,paperBall.position,{ x: 15, y: -17});
 
 }
 
